@@ -1,0 +1,58 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 30px;
+  background-color: rgb(46, 9, 46);
+}
+
+.textstyle {
+  background-color: purple; /* Changing background color */
+  font-weight: bold; /* Making font bold */
+  border-radius: 30px; /* Making border radius */
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 20px 30px 20px 30px; /* Making space around letters */
+  font-size: 18px; /* Changing font size */
+  color: white;
+  margin-bottom: 20px;
+}
+
+.text {
+  background-color: purple; /* Changing background color */
+  font-weight: bold; /* Making font bold */
+  border-radius: 20px; /* Making border radius */
+  width: auto; /* Making auto-sizable width */
+  height: auto; /* Making auto-sizable height */
+  padding: 20px 30px 20px 30px; /* Making space around letters */
+  font-size: 18px; /* Changing font size */
+  color: white;
+  margin-top: 10px;
+}
+
+.yesButton {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+
+.noButton {
+  background-color: #f44336; /* Red */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 2px solid black;
+}
